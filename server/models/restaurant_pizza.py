@@ -1,6 +1,4 @@
-from flask_sqlalchemy import SQLAlchemy
-
-db=SQLAlchemy()
+from server.app import db
 
 class Restaurant_pizza():
     __tablename__ = 'restaurant_pizzas'
