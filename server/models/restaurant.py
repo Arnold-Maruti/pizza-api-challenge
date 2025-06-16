@@ -7,4 +7,4 @@ class Restaurant(db.Model):
     name = db.Column(db.String)
     address = db.Column(db.String)
 
-    restaurant_pizzas = db.relationship("RestaurantPizza", back_populates="restaurant", cascade="all, delete-orphan")
+    restaurant_pizzas= db.relationship("RestaurantPizza", back_populates="restaurant", cascade="all, delete-orphan")

@@ -1,6 +1,6 @@
 from server.app import db
 
-class Restaurant_pizza(db.Model):
+class RestaurantPizza(db.Model):
     __tablename__ = 'restaurant_pizzas'
 
     id = db.Column(db.Integer, primary_key=True)
